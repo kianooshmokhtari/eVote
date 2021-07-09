@@ -1,0 +1,33 @@
+/*
+	`style.css`
+	Stylesheet for eVote
+	Written by Jack Fisher
+	For Dr. Kochut's CSCI 4050 class, fall 2016
+*/
+
+body {
+	background-color: #eeeeee;
+	max-width: 700px;
+	margin: auto;
+	margin-top: 1em;
+	padding: 10pt;
+	text-align: justify;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+
+a:link {
+	color: #666666;
+}
+
+a:visited {
+	color: #666666;
+}
+
+a:hover {
+	color: #999999;
+}
+
+a:active {
+	color: #ffffff;
+}

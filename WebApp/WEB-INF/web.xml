@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>edu.uga.cs.evote.presentation.Login</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>Logout</servlet-name>
+		<servlet-class>edu.uga.cs.evote.presentation.Logout</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Logout</servlet-name>
+		<url-pattern>/Logout</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ShowMainWindow</servlet-name>
+		<servlet-class>edu.uga.cs.evote.presentation.ShowMainWindow</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ShowMainWindow</servlet-name>
+		<url-pattern>/ShowMainWindow</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>CreateElectoralDistrict</servlet-name>
+		<servlet-class>edu.uga.cs.evote.presentation.CreateElectoralDistrict</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CreateElectoralDistrict</servlet-name>
+		<url-pattern>/CreateElectoralDistrict</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>EditElectoralDistrict</servlet-name>
+		<servlet-class>edu.uga.cs.evote.presentation.EditElectoralDistrict</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditElectoralDistrict</servlet-name>
+		<url-pattern>/EditElectoralDistrict</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>FindAllDistricts</servlet-name>
+		<servlet-class>edu.uga.cs.evote.presentation.FindAllDistricts</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FindAllDistricts</servlet-name>
+		<url-pattern>/FindAllDistricts</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DeleteDistrict</servlet-name>
+		<servlet-class>edu.uga.cs.evote.presentation.DeleteDistrict</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteDistrict</servlet-name>
+		<url-pattern>/DeleteDistrict</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>CreatePoliticalParty</servlet-name>
+		<servlet-class>edu.uga.cs.evote.presentation.CreatePoliticalParty</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CreatePoliticalParty</servlet-name>
+		<url-pattern>/CreatePoliticalParty</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>EditPoliticalParty</servlet-name>
+		<servlet-class>edu.uga.cs.evote.presentation.EditPoliticalParty</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditPoliticalParty</servlet-name>
+		<url-pattern>/EditPoliticalParty</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DeleteParty</servlet-name>
+		<servlet-class>edu.uga.cs.evote.presentation.DeleteParty</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteParty</servlet-name>
+		<url-pattern>/DeleteParty</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>FindAllParties</servlet-name>
+		<servlet-class>edu.uga.cs.evote.presentation.FindAllParties</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FindAllParties</servlet-name>
+		<url-pattern>/FindAllParties</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>FindAllBallots</servlet-name>
+		<servlet-class>edu.uga.cs.evote.presentation.FindAllBallots</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FindAllBallots</servlet-name>
+		<url-pattern>/FindAllBallots</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DeleteBallot</servlet-name>
+		<servlet-class>edu.uga.cs.evote.presentation.DeleteBallot</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteBallot</servlet-name>
+		<url-pattern>/DeleteBallot</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>FindAllIssues</servlet-name>
+		<servlet-class>edu.uga.cs.evote.presentation.FindAllIssues</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FindAllIssues</servlet-name>
+		<url-pattern>/FindAllIssues</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>EditIssue</servlet-name>
+		<servlet-class>edu.uga.cs.evote.presentation.EditIssue</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditIssue</servlet-name>
+		<url-pattern>/EditIssue</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DeleteIssue</servlet-name>
+		<servlet-class>edu.uga.cs.evote.presentation.DeleteIssue</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteIssue</servlet-name>
+		<url-pattern>/DeleteIssue</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>FindAllCandidates</servlet-name>
+		<servlet-class>edu.uga.cs.evote.presentation.FindAllCandidates</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FindAllCandidates</servlet-name>
+		<url-pattern>/FindAllCandidates</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>CreateVoter</servlet-name>
+		<servlet-class>edu.uga.cs.evote.presentation.CreateVoter</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CreateVoter</servlet-name>
+		<url-pattern>/CreateVoter</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ForgotPassword</servlet-name>
+		<servlet-class>edu.uga.cs.evote.presentation.ForgotPassword</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ForgotPassword</servlet-name>
+		<url-pattern>/ForgotPassword</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GetProfile</servlet-name>
+		<servlet-class>edu.uga.cs.evote.presentation.GetProfile</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>GetProfile</servlet-name>
+		<url-pattern>/GetProfile</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>EditVoterProfile</servlet-name>
+		<servlet-class>edu.uga.cs.evote.presentation.EditVoterProfile</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>EditVoterProfile</servlet-name>
+		<url-pattern>/EditVoterProfile</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>CreateBallot</servlet-name>
+		<servlet-class>edu.uga.cs.evote.presentation.CreateBallot</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CreateBallot</servlet-name>
+		<url-pattern>/CreateBallot</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>CreateIssue</servlet-name>
+		<servlet-class>edu.uga.cs.evote.presentation.CreateIssue</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CreateIssue</servlet-name>
+		<url-pattern>/CreateIssue</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>CreateElection</servlet-name>
+		<servlet-class>edu.uga.cs.evote.presentation.CreateElection</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CreateElection</servlet-name>
+		<url-pattern>/CreateElection</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>FindAllElections</servlet-name>
+		<servlet-class>edu.uga.cs.evote.presentation.FindAllElections</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FindAllElections</servlet-name>
+		<url-pattern>/FindAllElections</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>EditElection</servlet-name>
+		<servlet-class>edu.uga.cs.evote.presentation.EditElection</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditElection</servlet-name>
+		<url-pattern>/EditElection</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>DeleteElection</servlet-name>
+		<servlet-class>edu.uga.cs.evote.presentation.DeleteElection</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteElection</servlet-name>
+		<url-pattern>/DeleteElection</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<servlet-name>DeleteVoterAccount</servlet-name>
+		<servlet-class>edu.uga.cs.evote.presentation.DeleteVoterAccount</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteVoterAccount</servlet-name>
+		<url-pattern>/DeleteVoterAccount</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>FindVoterBallots</servlet-name>
+		<servlet-class>edu.uga.cs.evote.presentation.FindVoterBallots</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FindVoterBallots</servlet-name>
+		<url-pattern>/FindVoterBallots</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>FindBallotsToVote</servlet-name>
+		<servlet-class>edu.uga.cs.evote.presentation.FindBallotsToVote</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FindBallotsToVote</servlet-name>
+		<url-pattern>/FindBallotsToVote</url-pattern>
+	</servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>CastBallot</servlet-name>
+        <servlet-class>edu.uga.cs.evote.presentation.CastBallot</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CastBallot</servlet-name>
+        <url-pattern>/CastBallot</url-pattern>
+    </servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>CreateCandidate</servlet-name>
+		<servlet-class>edu.uga.cs.evote.presentation.CreateCandidate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CreateCandidate</servlet-name>
+		<url-pattern>/CreateCandidate</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>EditCandidate</servlet-name>
+		<servlet-class>edu.uga.cs.evote.presentation.EditCandidate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditCandidate</servlet-name>
+		<url-pattern>/EditCandidate</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DeleteCandidate</servlet-name>
+		<servlet-class>edu.uga.cs.evote.presentation.DeleteCandidate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteCandidate</servlet-name>
+		<url-pattern>/DeleteCandidate</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DeleteDistrict</servlet-name>
+		<servlet-class>edu.uga.cs.evote.presentation.DeleteDistrict</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteDistrict</servlet-name>
+		<url-pattern>/DeleteDistrict</url-pattern>
+	</servlet-mapping>
+
+</web-app>
